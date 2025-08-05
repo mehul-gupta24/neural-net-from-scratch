@@ -227,6 +227,8 @@ class DeepNeuralNetwork():
 
 def a(a):
     pass
+def a(a):
+    pass
 
 
 def show_images(image,num_row,num_col):
