@@ -225,6 +225,8 @@ class DeepNeuralNetwork():
         plt.title("Confusion Matrix")
         plt.show()
 
+def a(a):
+    pass
 
 
 def show_images(image,num_row,num_col):
