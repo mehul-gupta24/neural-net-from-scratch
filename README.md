@@ -34,3 +34,19 @@ This project implements a deep neural network **from scratch using only NumPy** 
 ├── utils.py                 # Helper functions (activation, loss, etc.)
 ├── plots/                   # Contains accuracy/loss/confusion matrix plots
 ├── README.md                # Project overview
+
+
+🧠 How the Model Works
+Input Layer: 784 (28x28 flattened pixels)
+
+Hidden Layers: Configurable (e.g., [128, 64])
+
+Output Layer: 10 neurons (digits 0–9) with Softmax activation
+
+Loss: Cross-Entropy
+
+Optimizer: Mini-Batch SGD with momentum (optional)
+
+
+
+
