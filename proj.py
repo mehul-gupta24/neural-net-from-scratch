@@ -281,7 +281,7 @@ if __name__ == "__main__":
     # Sigmoid + Momentum
     dnn = DeepNeuralNetwork(sizes=[784,6, 10], activation='sigmoid')
     dnn.train(x_train, y_train, x_test, y_test,epochs=10, batch_size=128, optimizer='momentum', l_rate=0.1, beta=0.9)
-    dnn.ClassificationReport()
+    # dnn.ClassificationReport()
 
     # Relu + SGD
     # dnn = DeepNeuralNetwork(sizes=[784, 64, 10], activation='relu')
